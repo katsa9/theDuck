@@ -118,7 +118,6 @@ const resetColors = () => {
 const selectRandomUserWithComment = () => {
   // Select a random teammate that has not yet been picked
   const selectedTeamMate = randomlySelectValueThatHasNotPreviouslyBeenSelected(billabongTeam, selectedTeamMates);
-  selectedTeamMates.push(selectedTeamMate);
 
   // Select a random fun fact
   const selectedFunFact = randomlySelectValueThatHasNotPreviouslyBeenSelected(funFacts, usedFacts);
@@ -138,5 +137,6 @@ const selectRandomUserWithComment = () => {
   } else {
       elem.innerHTML = tailorFunFactForUser(selectedFunFact, selectedTeamMate);
       resetColors();
+      selectedTeamMates.push(selectedTeamMate);
   }
 };
