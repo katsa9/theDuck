@@ -9,6 +9,7 @@ let billabongTeam = [
   'Andrew',
   'Rekha',
   'Kathleen',
+  'Sindhuja'
 ];
 
 const funFacts =
