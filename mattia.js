@@ -1,14 +1,13 @@
 let billabongTeam = [
   'Ilya',
   'Geoff',
-  'Kane',
-  'Rizky',
   'Peter',
   'Jono',
   'Abid',
   'Andrew',
-  'Rekha',
   'Kathleen',
+  'Kane',
+  'Rizky',
   'Sindhuja'
 ];
 
