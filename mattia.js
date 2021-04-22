@@ -128,7 +128,7 @@ const selectRandomUserWithComment = () => {
 
   if (selectedTeamMates.length === billabongTeam.length) {
     resetColors();
-    elem.innerHTML=`🌟 Have an awesome day! 🌟 <img src="https://streakysurf.com.au/wp-content/uploads/2019/05/kisspng-billabong-outlet-clothing-logo-adidas-billabong-5b10f399f012b5.8081771315278375939834.jpg">`;
+    elem.innerHTML=`🌟 Have an awesome day! 🌟 <img src="http://3.bp.blogspot.com/-5XOsVzF9PGI/TomGHYmkzqI/AAAAAAAABAs/q8m-26CCZto/s1600/party-gifs-its-friday.gif">`;
     const theDuckButton = document.getElementById('theDuck');
     if (theDuckButton) {
       theDuckButton.value = "Reset";
