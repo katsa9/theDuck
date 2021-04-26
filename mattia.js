@@ -128,7 +128,7 @@ const selectRandomUserWithComment = () => {
 
   if (selectedTeamMates.length === billabongTeam.length) {
     resetColors();
-    elem.innerHTML=`🌟 Have an awesome day! 🌟 <img src="http://3.bp.blogspot.com/-5XOsVzF9PGI/TomGHYmkzqI/AAAAAAAABAs/q8m-26CCZto/s1600/party-gifs-its-friday.gif">`;
+    elem.innerHTML=`🌟 Have an awesome day! 🌟 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcvlFbUwjiTSBT-__xjfnlB_tVoFNDp-IM3Q&usqp=CAU">`;
     const theDuckButton = document.getElementById('theDuck');
     if (theDuckButton) {
       theDuckButton.value = "Reset";
