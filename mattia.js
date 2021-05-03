@@ -128,7 +128,7 @@ const selectRandomUserWithComment = () => {
 
   if (selectedTeamMates.length === billabongTeam.length) {
     resetColors();
-    elem.innerHTML=`🌟 Have an awesome day! 🌟 <img src="https://i.pinimg.com/originals/9f/65/a3/9f65a39f79bc99f31187b9e970374253.jpg">`;
+    elem.innerHTML=`🌟 Have an awesome day! 🌟 <img src="https://media.socastsrm.com/wordpress/wp-content/blogs.dir/2162/files/2020/05/may-the-4th-be-with-you-pic.jpg">`;
     const theDuckButton = document.getElementById('theDuck');
     if (theDuckButton) {
       theDuckButton.value = "Reset";
