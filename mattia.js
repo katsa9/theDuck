@@ -3,7 +3,6 @@ let billabongTeam = [
   'Geoff',
   'Peter',
   'Jono',
-  'Abid',
   'Andrew',
   'Kathleen',
   'Kane',
